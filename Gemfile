@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 
 gem 'kaminari'
+gem 'ransack'
+gem 'devise'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -46,5 +48,6 @@ group :development, :test do
   gem 'spring'
   gem 'faker'
   gem 'faker-japanese'
+  gem 'annotate'
 end
 
