@@ -14,7 +14,7 @@ Company.create(name: "ヤフー株式会社", url: "http://www.yahoo.co.jp/", ad
     family_name: Faker::Japanese::Name.last_name,
     given_name: Faker::Japanese::Name.first_name,
     email: "customer_#{index}@sparta.com",
-    company_id: rand(3) + 1
+    company_id: rand(3) + 13
   )
 
 # 100.times do |index|
